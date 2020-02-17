@@ -1,0 +1,2 @@
+# Do not include python cache files for git
+__pycache__/
