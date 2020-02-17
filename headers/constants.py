@@ -6,10 +6,10 @@ define constant variables that will be used as standards for the entire project
 plot_generalization_factor = 0
 # Define maximum no. of points in the dataset
 plot_input_space_size = 100
-
+# Define max. and min. overlap area factor
 max_generalization_factor = 35
 min_generalization_factor = 1
-
+# Define dataset generation constants
 max_input_space_size = 700
 min_input_space_size = 100
 input_space_step_size = 100
