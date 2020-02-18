@@ -1,0 +1,16 @@
+# Set OS to linux
+os: linux
+
+# Set the build language to Python
+language: python
+
+# Set the python version to 3.5
+python: 3.5
+
+# Install the library dependcies
+install:
+  - pip3 install numpy matplotlib
+
+# Run the python script in the project
+script:
+  - python3 main.py
